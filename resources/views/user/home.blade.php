@@ -166,11 +166,11 @@
     </div> <!-- .bg-light -->
   </div> <!-- .bg-light -->
 
-  @include('user.doctor')
+    @include('user.doctor')
 
-  @include('user.latest')
+    @include('user.latest')
 
- @include('user.appointment')
+    @include('user.appointment')
 
   <div class="page-section banner-home bg-image" style="background-image: url(../assets/img/banner-pattern.svg);">
     <div class="container py-5 py-lg-0">
