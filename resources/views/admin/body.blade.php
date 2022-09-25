@@ -348,7 +348,7 @@
                         </div>
                       </td>
                       <td>
-                        <img src="assets/images/faces/face2.jpg" alt="image" />
+                        <img src="admin/assets/images/faces/face2.jpg" alt="image" />
                         <span class="ps-2">Estella Bryan</span>
                       </td>
                       <td> 02312 </td>
@@ -369,7 +369,7 @@
                         </div>
                       </td>
                       <td>
-                        <img src="assets/images/faces/face5.jpg" alt="image" />
+                        <img src="admin/assets/images/faces/face5.jpg" alt="image" />
                         <span class="ps-2">Lucy Abbott</span>
                       </td>
                       <td> 02312 </td>
