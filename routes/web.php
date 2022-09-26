@@ -34,3 +34,8 @@ Route::post('/appointment',[HomeController::class,'appointment']);
 Route::get('/myappointment',[HomeController::class,'myappointment']);
 
 Route::get('/cancel_appointment/{id}',[HomeController::class,'cancel_appointment']);
+
+Route::get('/show_appointments',[AdminController::class,'show_appointments']);
+
+Route::get('/approved/{id}',[AdminController::class,'approved']);
+Route::get('/canceled/{id}',[AdminController::class,'canceled']);

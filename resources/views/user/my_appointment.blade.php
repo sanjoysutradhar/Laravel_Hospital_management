@@ -112,7 +112,7 @@
     </nav>
   </header>
 
-  <div align="center" style="padding:50px 200px 15px;;">
+  <div align="center" style="padding:50px 200px 15px;">
     <table class="table" style="color:black" align="center" >
         <thead class="table-light" align="center">
             <th style="font-size:20px">Doctor Name</th>
