@@ -65,6 +65,7 @@
           <span class="menu-title">Add Doctors</span>
         </a>
       </li>
+
       <li class="nav-item menu-items">
         <a class="nav-link" 
         href="{{url('show_appointments')}}">
@@ -72,6 +73,16 @@
             <i class="mdi mdi-file-document-box"></i>
           </span>
           <span class="menu-title">Appointments</span>
+        </a>
+      </li>
+
+      <li class="nav-item menu-items">
+        <a class="nav-link" 
+        href="{{url('show_doctors')}}">
+          <span class="menu-icon">
+            <i class="mdi mdi-file-document-box"></i>
+          </span>
+          <span class="menu-title">All Doctorc</span>
         </a>
       </li>
     </ul>
