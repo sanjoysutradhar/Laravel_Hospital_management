@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,4 +46,7 @@ Route::get('/delete_doctor/{id}',[AdminController::class,'delete_doctor']);
 Route::get('/update_doctor/{id}',[AdminController::class,'update_doctor']);
 
 Route::post('/edit_doctor/{id}',[AdminController::class,'edit_doctor']);
-
+//view mail
+Route::get('/send_email/{id}',[AdminController::class,'send_email']);
+//send email
+Route::post('/sendmail/{id}',[AdminController::class,'sendmail']);

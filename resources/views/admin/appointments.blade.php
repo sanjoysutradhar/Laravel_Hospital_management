@@ -25,6 +25,7 @@
                         <th >Status</th>
                         <th >Approved</th>
                         <th >Cancel</th>
+                        <th >Send Mail</th>
                     </thead>
             
                     
@@ -43,6 +44,9 @@
                             <td  ><a href="{{url('canceled',$appoints->id)}}" 
                                 class="btn btn-danger"
                                 > Cancel</a></td>
+                            <td  ><a href="{{url('send_email',$appoints->id)}}" 
+                              class="btn btn-primary"
+                              > Send Mail</a></td>
                         </tbody>
                     @endforeach
                     
